@@ -1,0 +1,16 @@
+.card-list img {
+  width: 150px; }
+
+.card-list th {
+  font-size: 18px;
+  border: none !important; }
+
+.card-list td {
+  font-size: 16px;
+  vertical-align: middle; }
+  .card-list td.del {
+    vertical-align: middle; }
+    .card-list td.del i {
+      cursor: pointer; }
+      .card-list td.del i:hover {
+        color: red; }

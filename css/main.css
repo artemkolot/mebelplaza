@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+body {
+  font-size: 20px; }
+
+h4 {
+  color: #666;
+  margin-bottom: 30px; }
+
+.my-card form span {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px; }
+
+.my-card form input {
+  width: 100px;
+  height: 38px;
+  margin: 0 10px; }
+
+.my-card form button {
+  vertical-align: top !important; }
+
+.card-discription {
+  font-size: 16px;
+  padding: 10px; }
+  .card-discription ul li {
+    font-size: 16px; }
+
+.card-list img {
+  width: 150px; }
+
+.card-list th {
+  font-size: 18px;
+  border: none !important; }
+
+.card-list td {
+  font-size: 16px;
+  vertical-align: middle; }
+  .card-list td.del {
+    vertical-align: middle; }
+    .card-list td.del i {
+      cursor: pointer; }
+      .card-list td.del i:hover {
+        color: red; }
+
+header nav {
+  height: 104px;
+  padding: 20px 0; }
+  header nav .contact-phone a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #595959; }
+  header nav .contact-phone i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #02AE70; }
+  header nav .profile {
+    padding-left: 20px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px; }
+  header nav .search {
+    border-right: 1px solid #ccc;
+    padding-right: 20px; }
+  header nav .cart {
+    padding-left: 20px; }
+    header nav .cart i {
+      color: #02AE70; }
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px; }
+
+h2 {
+  text-align: center;
+  color: #ccc;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 80px;
+  position: relative; }
+  h2:before {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 1px;
+    background: #ccc;
+    left: 50%;
+    margin-left: -110px;
+    bottom: -25px; }
+
+main {
+  background: #F7F7F7;
+  padding: 40px;
+  min-height: 100vh; }
+
+.pozitions a {
+  text-decoration: none;
+  color: #000; }
+
+.pozitions .pozitions-item {
+  margin-bottom: 30px;
+  cursor: pointer; }
+  .pozitions .pozitions-item:hover .positions-discription {
+    top: 0;
+    z-index: -1; }
+  .pozitions .pozitions-item .positions-discription {
+    transition: .3s ease; }
+    .pozitions .pozitions-item .positions-discription h3 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px; }
+  .pozitions .pozitions-item img {
+    width: 100%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1); }
